@@ -1,0 +1,1 @@
+console.log("client server에서 작동하는 js 입니다. ")

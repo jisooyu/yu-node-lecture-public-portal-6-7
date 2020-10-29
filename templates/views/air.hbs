@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <title>AirQuality</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        
+        <p>측정장소: <span id="message-0">{{location}}</span> </p>
+        <p>측정시각: <span id="message-1">{{time}}</span></p>
+        <p>pm 10: <span id="message-2">{{pm10}}</span> ㎍/㎥</p>
+        <p>pm 25: <span id="message-3">{{pm25}}</span> ㎍/㎥</p>
+
+        {{>footer}}
+    </div>
+</body>
+</html>
